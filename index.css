@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    background-color:rgba(191,191,191,0.5);
+}
+
+#bbody{
+    width:100%;
+    height:100%;
+    background-color:#FFFFFF;   
+}
+
+.llogo{
+    background-color:#fde5d9;
+    border:1px solid #fde5d9;
+    height: 80px;
+}
+
+#banniere{
+    background-color:rgba(20,35,126,1);
+    border:1px solid rgba(20,35,126,1);
+    height: 70px;
+}
+
+header h1{
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    color:rgba(255,255,255,1);
+    font-weight:bold; /*Rendre l'écriture fine*/
+    font-size:20px;
+    text-align:center;
+    text-shadow:0px 1px 2px #FFFFFF;
+    margin-top: 23px;
+}
+
+ #nav-info{
+	background: black;
+	padding: 10px 0px
+	width: 100%;
+	position: relative;
+}
+
+.nav-bar{
+	max-width: 1300px;
+    margin: auto;
+    padding: 0 40px;
+}
+
+#nav-info, .nav-bar{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: .2s linear;
+    text-decoration: none;
+}
+ ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+li {
+    list-style-type: none;
+    font-size: 18px;
+}
+.nav-bar ul a {
+    color: white;
+}
+.nav-bar ul a:visited {
+    color:white;
+}
+.nav-bar ul a:hover {
+    /* color: rgb(245, 222, 179); */
+    color: rgb(0, 139, 139);
+    padding: 16px;
+    
+}
